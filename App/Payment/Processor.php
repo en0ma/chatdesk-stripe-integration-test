@@ -5,8 +5,16 @@ use Stripe\Customer;
 
 class Processor
 {
+    /**
+     * test amount.
+     * 
+     * @var int
+     */
     protected $amount = 2;
 
+    /**
+     * Stripe secret key
+     */
     const API_KEY = 'sk_test_fxNlTGR9yS3y05rwtgp2BcsG';
 
     /**
@@ -18,6 +26,10 @@ class Processor
         Stripe::setApiKey(self::API_KEY);
     }
 
+    /** Create a new stripe charge on customer.
+     *
+     * @param $params
+     */
     public function charge($params)
     {
         try {
