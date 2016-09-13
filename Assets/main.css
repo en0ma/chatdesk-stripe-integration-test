@@ -1,0 +1,61 @@
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+
+.container {
+    margin: auto;
+    width: 90%;
+    height: 100%;
+}
+
+.content {
+    margin-top: 10%;
+}
+
+#payment-form-div {
+    margin: auto;
+    width: 15%;
+    min-height: 25%;
+    border: 1px solid #ccc;
+    padding: 2%;
+}
+
+#payment-form-div form label {
+    display: block;
+    margin-bottom: 2%;
+    margin-top: 5%;
+    font-weight: bold;
+}
+
+#payment-form-div form input[type='text'] {
+    padding: 3%;
+    width: 97%;
+}
+
+#payment-form-div form button {
+    clear: both;
+    padding: 3%;
+    margin-top: 5%;
+    width: 97%;
+}
+
+.payment-label {
+    font-weight: bold;
+    color: darkorange;
+    display: block;
+    margin-bottom: 5px;
+}
+
+#info {
+    margin: auto;
+    width: 25%;
+    min-height: 25%;
+    padding: 2%;
+}
+
+#info span {
+    font-size: x-large;
+}
