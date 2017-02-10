@@ -15,7 +15,7 @@ class Processor
     /**
      * Stripe secret key
      */
-    const API_KEY = 'sk_test_fxNlTGR9yS3y05rwtgp2BcsG';
+    const API_KEY = getenv('STRIPE_SECRET_KEY');
 
     /**
      * Create a provider instance and setup stripe api key
